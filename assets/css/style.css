@@ -1,0 +1,271 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.d-flex{
+    display: flex;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.justify-content-space-between{
+    justify-content: space-between;
+}
+.align-items-center{
+    align-items: center;
+}
+.flex-row{
+    flex-direction: row;
+}
+.flex-column{
+    flex-direction: column;
+}
+.h-350{
+    height: 350px;
+}
+.color-white{
+    color: white;
+}
+.border-none{
+    border: none;
+}
+.bg-blue{
+    background: #2C49FE;
+}
+.color-blue{
+    color: #2C49FE;
+}
+.color-sky{
+    color: #01C8FF;
+}
+.font-size-12{
+    font-size: 12px ;
+}
+.font-size-14{
+    font-size: 14px ;
+}
+.font-size-16{
+    font-size: 16px ;
+}
+.font-size-24{
+    font-size: 24px ;
+}
+.font-size-48{
+    font-size: 48px ;
+}
+.font-size-36{
+    font-size: 36px ;
+}
+.font-weight-400{
+    font-weight: 400;
+}
+.font-weight-600{
+    font-weight: 600;
+}
+.font-weight-400{
+    font-weight: 400;
+}
+.font-weight-700{
+    font-weight: 700;
+}
+.f-f-poppins{
+    font-family: 'Poppins', sans-serif;
+}
+.text-align-center{
+    text-align: center;
+}
+.h-46{
+    height: 46px;
+}
+.w-118{
+    width: 118px;
+}
+.border-radius-23{
+    border-radius: 23px;
+}
+.bg-image{
+    background: linear-gradient(180deg, #000 0%, rgba(0, 0, 0, 0.00) 100%),url(../image/Rectangle\ 56.png);
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    max-width: 1320px;
+    margin: auto;
+    position: relative;
+}
+.gap-60{
+    gap: 60px;
+}
+.gap-15{
+    gap: 15px;
+}
+.gap-56{
+    gap: 56px;
+}
+ul li a{
+    color: white;
+}
+.container{
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+.col-4{
+    width: 33%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.card{
+    height: 567px;
+    border-radius: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    background: #FFF;
+    padding: 35px 37px 30px 43px;
+}
+.card:hover{
+    box-shadow: 0px 8px 35px 0px rgba(0, 0, 0, 0.10);
+    border: none;
+    cursor: pointer;
+}
+.gap-8{
+    gap: 8px;
+}
+.opacity-0-6{
+    opacity: 0.6;
+}
+.pt-21{
+    padding-top: 21px;
+}
+.pb-12{
+    padding-bottom: 12px;
+}
+.w-100{
+    width: 100%;
+}
+.pb-17{
+    padding-bottom: 17px;
+}
+.pb-14{
+    padding-bottom: 14px;
+}
+.h-46{
+    height: 46px;
+}
+.w-134{
+    width: 134px;
+}
+.border-radius-23{
+    border-radius: 23px;
+}
+.pb-32{
+    padding-bottom: 32px;
+}
+.mb-25{
+    margin-bottom: 25px;
+}
+.pb-24{
+    padding-bottom: 24px;
+}
+.pt-36{
+    padding-top: 36px;
+}
+.col-6{
+    width: 50%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.mt-68{
+    margin-top: 68px;
+}
+.pb-33{
+    padding-bottom: 33px;
+}
+.bg-black{
+    background-color: black;
+}
+/* Footer  */
+.pb-11{
+    padding-bottom: 11px;
+}
+.pb-12{
+    padding-bottom: 12px;
+}
+.w-90{
+    width: 90px;
+}
+.h-62{
+    height: 62px;
+}
+.bg-light-blue{
+    background-color: rgba(45, 60, 174, 0.53);
+}
+.gap-18{
+    gap: 18px;
+}
+.pb-13{
+    padding-bottom: 13px;
+}
+.max-w-346{
+    max-width: 346px;
+}
+.pt-90{
+    padding-top: 90px;
+}
+.pt-126{
+    padding-top: 126px;
+}
+.gap-73{
+    gap: 73px;
+}
+@media (max-width:992px) {
+    nav .menu{
+        position: fixed;
+        top: 0;
+        left: -100%;
+        background-color: blue;
+        width: 100%;
+        height: 100vh;
+        display: inline-block;
+        text-align: center;
+        transition: all 300ms linear;
+    }
+    nav .menu ul{
+        display: block;
+        margin-top: 150px;
+    }
+    nav .menu ul li{
+        margin: 70px 0px;
+    }
+    .icon-box{        
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        z-index: 2;
+    }
+    .icon-box span{
+        width: 50px;
+        height: 3px;
+        background-color: white;
+        display: inline-block;
+    }
+    #menubox:checked ~ .menu{
+        left: 0;
+    }
+}

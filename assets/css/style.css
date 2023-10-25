@@ -234,6 +234,9 @@ ul li a{
 .pt-90{
     padding-top: 90px;
 }
+.pb-25{
+    padding-bottom: 25px;
+}
 .pt-36{
     padding-top: 36px;
 }
@@ -259,7 +262,9 @@ ul li a{
     .col-6{
         width: 100%;
     }
-    
+    .max-w-310{
+        max-width: 310px;
+    }
 }
 @media (min-width:576px) {
     .col-4{
@@ -267,6 +272,9 @@ ul li a{
     }
     .col-6{
         width: 100%;
+    }
+    .max-w-310{
+        max-width: 310px;
     }
     
 }
@@ -276,6 +284,8 @@ ul li a{
     }
     .col-6{
         width:100% ;
+    } .max-w-310{
+        max-width: 310px;
     }
     
 }

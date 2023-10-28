@@ -413,5 +413,9 @@ ul li a{
     #menubox:checked ~ .menu{
         left: 0;
     }
+    #menubox:checked + label{
+        position: fixed;
+        right: 0;
+    }
 }
 
